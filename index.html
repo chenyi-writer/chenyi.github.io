@@ -499,17 +499,16 @@
             // document.querySelector('#classify_search_contemplation').classList.remove('classify-search1');
             document.querySelector('#classify_search_miscellany').classList.remove('classify-search1');
             // document.querySelector('#classify_search_critique').classList.remove('classify-search1');
+        } else if (classify === '纪事') {
+
+            searchDivDom.style.display = 'none';
+            document.querySelector('#classify_search_search').classList.remove('classify-search1');
+            document.querySelector('#classify_search_all').classList.remove('classify-search1');
+            document.querySelector('#classify_search_journey').classList.add('classify-search1');
+            // document.querySelector('#classify_search_contemplation').classList.remove('classify-search1');
+            // document.querySelector('#classify_search_critique').classList.remove('classify-search1');
+            document.querySelector('#classify_search_miscellany').classList.remove('classify-search1');
         }
-        // else if (classify === '纪事') {
-        //
-        //     searchDivDom.style.display = 'none';
-        //     document.querySelector('#classify_search_search').classList.remove('classify-search1');
-        //     document.querySelector('#classify_search_all').classList.remove('classify-search1');
-        //     document.querySelector('#classify_search_journey').classList.add('classify-search1');
-        //     document.querySelector('#classify_search_contemplation').classList.remove('classify-search1');
-        //     document.querySelector('#classify_search_critique').classList.remove('classify-search1');
-        //     document.querySelector('#classify_search_miscellany').classList.remove('classify-search1');
-        // }
         // else if (classify === '思辨') {
         //
         //     searchDivDom.style.display = 'none';
@@ -519,17 +518,17 @@
         //     document.querySelector('#classify_search_contemplation').classList.add('classify-search1');
         //     document.querySelector('#classify_search_critique').classList.remove('classify-search1');
         //     document.querySelector('#classify_search_miscellany').classList.remove('classify-search1');
+        // } else if (classify === '评论') {
+        //
+        //     searchDivDom.style.display = 'none';
+        //     document.querySelector('#classify_search_search').classList.remove('classify-search1');
+        //     document.querySelector('#classify_search_all').classList.remove('classify-search1');
+        //     document.querySelector('#classify_search_journey').classList.remove('classify-search1');
+        //     document.querySelector('#classify_search_contemplation').classList.remove('classify-search1');
+        //     document.querySelector('#classify_search_critique').classList.add('classify-search1');
+        //     document.querySelector('#classify_search_miscellany').classList.remove('classify-search1');
         // }
-        else if (classify === '评论') {
-
-            searchDivDom.style.display = 'none';
-            document.querySelector('#classify_search_search').classList.remove('classify-search1');
-            document.querySelector('#classify_search_all').classList.remove('classify-search1');
-            document.querySelector('#classify_search_journey').classList.remove('classify-search1');
-            // document.querySelector('#classify_search_contemplation').classList.remove('classify-search1');
-            // document.querySelector('#classify_search_critique').classList.add('classify-search1');
-            document.querySelector('#classify_search_miscellany').classList.remove('classify-search1');
-        } else if (classify === '杂谈') {
+        else if (classify === '杂谈') {
 
             searchDivDom.style.display = 'none';
             document.querySelector('#classify_search_search').classList.remove('classify-search1');
